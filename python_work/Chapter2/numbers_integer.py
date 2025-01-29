@@ -8,4 +8,7 @@ division = 12 / 3 # Division
 print(division)
 
 subtraction = 2 - 1 # Subtraction
-print(subtraction)  
+print(subtraction)
+
+pemdas = 2 + 3 * 4
+print(pemdas)
