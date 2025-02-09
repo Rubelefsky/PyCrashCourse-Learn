@@ -3,7 +3,8 @@
 guest_list = ['scott', 'brandon', 'steven', 'russ']
 print(guest_list)
 
-new_list = guest_list.pop(0) # Remove the value at 0
-print(new_list)
+
+print(f"Here is the guest list. \n{guest_list[0].title()}\n{guest_list[1].title()}\n{guest_list[2].title()}\n{guest_list[3].title()}")
+
 
 
