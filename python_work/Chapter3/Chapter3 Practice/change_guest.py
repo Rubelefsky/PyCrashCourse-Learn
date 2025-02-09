@@ -3,10 +3,7 @@
 guest_list = ['scott', 'brandon', 'steven', 'russ']
 print(guest_list)
 
-guest_list.remove('scott') # Remove the value scott
-print(guest_list)
-
-guest_list.append('matt') # add Matt to the end of the list
-print(guest_list)
+new_list = guest_list.pop(0) # Remove the value at 0
+print(new_list)
 
 
