@@ -8,5 +8,11 @@ print(sorted(locations))
 print("\nThis it the original printed again:")
 print(locations)
 
-print("\nThis is the reverse list")
-print
+locations.reverse() # List printed in reverse
+print(locations)
+
+locations.reverse() # Change order again
+print(locations)
+
+locations.sort() # Sort in Alphabetical order
+print(locations)
