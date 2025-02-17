@@ -1,0 +1,2 @@
+even_numbers = list(range(2, 11, 2)) # Range starts with 2, ends at 11. Repeatedly adds to the value until it reaches or passes the end value which is 11.
+print(even_numbers) # Prints 2,4,6,7,10 in a list
