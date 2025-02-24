@@ -1,0 +1,3 @@
+for number in range(3, 33, 3): # Create range from 3-33 (30), multiples of 3
+    print(number) # print number range 3,6,9,etc...
+    
