@@ -4,10 +4,10 @@ my_foods = ['pizza', 'falafel', 'hamburgers', 'bagel']
 print(my_foods)
 
 for food in my_foods:
-    print(food.title())
+    print(food.title()) # Print loop with first letter capital
 
 
 print("My favorite foods are:")
 for food in my_foods:
-    print(food.upper())
+    print(food.upper()) # print loop all upper case
     
