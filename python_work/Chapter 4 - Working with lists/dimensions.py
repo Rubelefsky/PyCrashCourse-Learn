@@ -7,3 +7,6 @@ print(dimensions[1]) # Print second item in tuple - 50
 
 # dimensions[0] = 250 | would not work as you cannot alter a tuple
 # This will raise an error "Tuple does not support item assignment"
+
+# Typles - Technically designed by presence of a comma
+# my_t = (3,) If you want a tuple with 1 element, you need to include a trailing comma
