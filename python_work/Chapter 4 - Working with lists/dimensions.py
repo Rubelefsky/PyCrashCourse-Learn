@@ -11,7 +11,13 @@ print(dimensions[1]) # Print second item in tuple - 50
 # Typles - Technically designed by presence of a comma
 # my_t = (3,) If you want a tuple with 1 element, you need to include a trailing comma
 
-error_number = (404, 400)
-print(error_number[0])
-for error in error_number: # loop through tuple 
-    print(error)
+print("Original Dimension:") 
+for dimension in dimensions: 
+    print(dimension) # Print for loop 
+
+dimensions = (400, 100) # update tuple variable
+print("\nModified dimensions:")
+for dimension in dimensions:
+    print(dimension) # print new tuple dimensions
+
+
