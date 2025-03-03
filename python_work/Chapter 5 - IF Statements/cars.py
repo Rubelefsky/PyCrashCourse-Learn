@@ -5,3 +5,7 @@ for car in cars: # Starts Loop
         print(car.upper()) # Print all uppercase
     else:
         print(car.title()) # Else print title of car
+        
+     # true or false - Conditional test
+     # if test == true then python code executes
+     # if test == false then python ignores code following if statement
