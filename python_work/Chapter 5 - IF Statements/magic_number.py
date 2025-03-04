@@ -18,3 +18,4 @@ else:
 # age_1 = 22
 # age_0 >= 21 and age_1 >= 21 
 # Equals to true as age_0 is 22 which is greater than 21 and age_1 is 22 which is also greater than 21
+# (age_0 >= 21) and (age_1 >= 21)
