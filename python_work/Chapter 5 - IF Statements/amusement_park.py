@@ -5,3 +5,5 @@ elif age < 18: # Only runs if previous test fails
     print("Your admission cost is $25.") # Between ages of 4 and 18 print $25
 else:
     print("Your admission cost is $40.") # Over 18 print $40
+
+# See shortened version python_work/Chapter 5 - IF Statements/single_print.py
