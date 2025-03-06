@@ -1,0 +1,1 @@
+# 5-6. Stages of Life: Write an if-elif-else chain that determines a person’s stage of life.
