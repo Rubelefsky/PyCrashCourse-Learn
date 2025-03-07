@@ -1,0 +1,8 @@
+# 5.10 Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username
+current_users = ['admin', 'brandon', 'jack', 'smith', 'steve']
+
+new_users = ['brandon', 'bob', 'smith', 'jim', 'alex']
+
+for users in new_users: # For users in New users list
+    if users in current_users: # If user is also in current list
+        print(f"Hello, {users.title()}.") # print - brandon and smith
