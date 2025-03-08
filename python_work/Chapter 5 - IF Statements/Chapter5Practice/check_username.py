@@ -9,7 +9,7 @@ for users in new_users: # For users in New users list
     if users in current_users: # If user is also in current list
         print(f"Hello, that user name {users} is taken.")
     if users not in current_users:
-        print(f"That username {users} is available.") # print - brandon and smith
+        print(f"That username {users.title()} is available.") # print - brandon and smith
 
 # Loop through the new_users list to see if each new username has already been used. 
 # If it has, print a message that the person will need to enter a new username. 
