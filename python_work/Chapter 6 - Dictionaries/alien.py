@@ -1,8 +1,11 @@
 alien_0 = {'color': 'green', 'points': 5} # Dictionary stores alien color and point value
+alien_1 = {'color': 'yellow', 'points': 10}
 
 print(alien_0['color'])
 print(alien_0['points'])
 
+print(alien_1['color'])
+print(alien_1['points'])
 # Dictionary is a collection of key-value pairs
 # Each key is connected to a value
 # A dictionary is wrapped in {}
