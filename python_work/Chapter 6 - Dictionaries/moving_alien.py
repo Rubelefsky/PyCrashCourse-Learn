@@ -13,4 +13,4 @@ else: # Fast Alien
 # The new position is the old position plus the increment.
 alien_0['x_position'] = alien_0['x_position'] + x_increment
 
-print(f"New Position: {alien_0['x_position']}") # Speed of Alien is medium so +2 increment
+print(f"New Position: {alien_0['x_position']}") # Speed of Alien is medium so +2 increment to the right
