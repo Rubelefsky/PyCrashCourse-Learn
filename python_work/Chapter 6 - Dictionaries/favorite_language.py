@@ -6,5 +6,5 @@ favorite_languages = {
 }
 print(favorite_languages)
 
-language = favorite_languages['edward'].title() # Creates new variable. Changing the name in the [] will change the output below.
+language = favorite_languages['sarah'].title() # Creates new variable. Changing the name in the [] will change the output below.
 print(f'Sarahs favorite language is {language}.')
