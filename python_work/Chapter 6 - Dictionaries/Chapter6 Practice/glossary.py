@@ -9,9 +9,12 @@ glossary = {
     'tuple': 'immutable list'
     }
 
-print(f"A variable is {glossary['variable']}.")
+for word in glossary: # For word in glossary dictionary
+    if word == 'variable': # IF the word is == variable, print below.
+        print('\nA variable test loop and if statement.')
 
+
+print(f"\nA variable is {glossary['variable']}.")
 print(f"\nA loop is a {glossary['loop']}.")
-
 print(f"\nAn if-else is {glossary['if-else']}.")
 
