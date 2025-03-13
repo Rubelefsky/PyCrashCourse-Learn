@@ -4,11 +4,14 @@
 glossary = {
     'variable': 'a named storage location that holds a value', 
     'loop': 'control flow structure that allows a block of code to be executed repeatedly',
-    'if-else': 'conditional true false'
+    'if-else': 'conditional true false',
+    'list': 'store multiple items in a variable',
+    'tuple': 'immutable list'
     }
 
 print(f"A variable is {glossary['variable']}.")
 
-# for word in words:
-#       print(word.title())
+print(f"\nA loop is a {glossary['loop']}.")
+
+print(f"\nAn if-else is {glossary['if-else']}.")
 
