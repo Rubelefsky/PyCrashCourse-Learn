@@ -12,3 +12,8 @@ rivers = {
 print(rivers)
 for river in rivers:
     print(f"This called the {river.title()} river.")
+    if river == 'congo':
+        print(f"That river is located in the {rivers['congo']}.")
+
+
+
