@@ -12,6 +12,8 @@ glossary = {
 for word in glossary: # For word in glossary dictionary
     if word == 'variable': # IF the word is == variable, print below.
         print('\nA variable test loop and if statement.')
+    else:
+        print(f"\nHello world not the word variable.")
 
 
 print(f"\nA variable is {glossary['variable']}.")
