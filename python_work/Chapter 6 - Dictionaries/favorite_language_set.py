@@ -12,3 +12,6 @@ for language in set(favorite_languages.values()): # a **set** is a collection in
     print(language.title())
 
 # When wrapping set() around a collection of values that contains duplicate items, Python identifies the unique items in the collection and builds a set from those items.
+
+# you can build a set directly by using brace and separating the elements with commas
+# languages = {'python', 'rust', 'python', 'c'}

@@ -9,11 +9,9 @@ rivers = {
     "congo": "drc",
 }
 
-print(rivers)
-for river in rivers:
-    print(f"This called the {river.title()} river.")
-    if river == 'congo':
-        print(f"That river is located in the {rivers['congo']}.")
-
+for river, country in rivers.items():
+    print(f'\nThe {river.title()} runs through {country.title()}.')
+    print(f'{river.title()}')
+    print(f'{country.title()}')
 
 
