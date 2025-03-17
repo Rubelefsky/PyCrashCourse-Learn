@@ -1,5 +1,4 @@
 # 6.1
-
 person = {
     'first_name': 'brandon', 
     'last_name': 'scott', 
@@ -13,4 +12,3 @@ print(person['age']) # Print age
 print(person['city'].title())
 
 print(f"My name is {person['first_name'].title()}.")
-
