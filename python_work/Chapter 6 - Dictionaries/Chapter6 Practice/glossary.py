@@ -19,4 +19,3 @@ for word in glossary: # For word in glossary dictionary
 print(f"\nA variable is {glossary['variable']}.")
 print(f"\nA loop is a {glossary['loop']}.")
 print(f"\nAn if-else is {glossary['if-else']}.")
-
