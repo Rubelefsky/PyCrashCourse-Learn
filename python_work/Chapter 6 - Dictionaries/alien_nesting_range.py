@@ -4,7 +4,7 @@
 aliens = []
 
 # Make 30 green aliens.
-for alien_number in range(100): # Returns a series of numbers, which tells Python how many times we want the loop to repeat
+for alien_number in range(30): # Returns a series of numbers, which tells Python how many times we want the loop to repeat
     new_alien = {'color': 'green', 'points': '5'} # Each time the loop is ran, we want a new alien to be created
     aliens.append(new_alien) # after creating the new alien - append to the list **aliens**
 
