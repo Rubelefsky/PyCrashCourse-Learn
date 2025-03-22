@@ -7,10 +7,14 @@ pets = {
     'cat': {
         'breed': 'calico',
         'name': 'jackson'
+    },
+    'fish': {
+       'breed': 'cichlid',
+       'name': 'makala'
     }
 }
 
-pet_list = [pets['cat'], pets['dog']]
+pet_list = [pets['cat'], pets['dog'], pets['fish']]
 
 for pet, pet_info in pets.items():
    # print(f'\nPet: {pet.title()}')
@@ -20,3 +24,5 @@ for pet, pet_info in pets.items():
    print(f'\nPet: {pet.title()}\nBreed: {pet_info['breed'].title()}\nName: {pet_info['name'].title()}')
 
 # This is def not right - I need to re do this dictionaries chapter.
+
+print(f'{pet_list[:]}')
