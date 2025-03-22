@@ -13,10 +13,18 @@ people = {
         'last_name': 'daniels', 
         'age': '28', 
         'city': 'brooklyn',
-    }
+    },
+        'jsmith': {
+        'first_name': 'jack', 
+        'last_name': 'smith', 
+        'age': '54', 
+        'city': 'queens',
+    },
+
+
 }
 
-people_list = [people['brubell'], people['adaniels']]
+people_list = [people['brubell'], people['jsmith'], people['adaniels']] # Create a list and add the dictionaries
 
 for person, person_info in people.items(): # assign key/value variables - person and person_info
     full_name = f"{person_info['first_name']} {person_info['last_name']}"
@@ -29,4 +37,4 @@ for person, person_info in people.items(): # assign key/value variables - person
     print(f"City: {city.title()}")
 
 
-print(f"\n{people_list[0]}")
+print(f"\n{people_list[:]}")
