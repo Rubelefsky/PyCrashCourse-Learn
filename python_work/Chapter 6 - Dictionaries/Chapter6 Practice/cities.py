@@ -19,6 +19,10 @@ cities = {
 
 }
 
-for city, city_info in cities.items():
-    print(city.title())
-    print(city_info)
+for city, city_info in cities.items(): # assign variables - city and city_info
+    
+    state = f'{city_info['state'].title()}' # create a new variable that prints the state 
+    region = f'{city_info['region'].title()}' # create a new variable that prints the region
+    city_information = f'\nCity Information for {city.title()}:\nState: {state}\nRegion: {region}' # Create a variable that puts it all together
+    
+    print(city_information)
