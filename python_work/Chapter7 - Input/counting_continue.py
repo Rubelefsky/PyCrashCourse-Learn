@@ -7,3 +7,5 @@ while current_number < 10: # while loop if current number is less than 10
         continue
     
     print(current_number)
+
+    # if the current number is not divisible by 2, the rest of the loop is executed and python prints the current_number
