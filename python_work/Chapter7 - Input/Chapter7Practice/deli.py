@@ -14,6 +14,6 @@ while sandwich_orders: # While there are sandwiches in this list...
     finished_sandwiches.append(sandwich) # add the sandwich to the finished sandwiches list
 
 print(f"\nThese sandwiches have been made:")
-for finished_sandwich in finished_sandwiches: 
+for finished_sandwich in finished_sandwiches: # loop through now filled list
     print(f"{finished_sandwich.title()}") # print finished sandwiches in list
 
