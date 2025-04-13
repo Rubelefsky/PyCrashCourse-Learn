@@ -5,3 +5,8 @@ def describe_pet(animal_type, pet_name): # define function with positional argum
     print(f"My {animal_type}'s name is {pet_name.title()}.")
 
 describe_pet('hamster', 'harry')
+
+# describe_pet(animal_type='hamster', pet_name='harry') - Keyword argument
+# describe_pet(pet_name='harry', animal_type='hamster') - Same as the above argument just in a different order
+# tells python what function should be paired with
+# use exact names of parameters in the functions definition
