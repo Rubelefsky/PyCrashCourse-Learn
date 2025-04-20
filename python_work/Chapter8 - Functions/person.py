@@ -1,7 +1,7 @@
 # page 138
 
 # Returning a dictionary
-def build_person(first_name, last_name, age=None):
+def build_person(first_name, last_name, age=None): # none is a placeholder value. None evaluates to False in conditional tests.
     """
     Return a dictionary of information about a person.
     """
