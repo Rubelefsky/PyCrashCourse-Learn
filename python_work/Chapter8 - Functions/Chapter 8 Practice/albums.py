@@ -12,4 +12,5 @@ def make_album(artist_name, album_name, number_of_songs=None):
 
 album1 = make_album('lloyd banks', 'cold corner 2', number_of_songs=15)
 print(album1)
-
+album2 = make_album('the beatles', 'abbey road')
+print(album2)
