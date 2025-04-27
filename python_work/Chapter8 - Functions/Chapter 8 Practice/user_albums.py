@@ -1,6 +1,6 @@
 # page 142
 # 8.8 user albums
-def make_album(artist_name, album_name, number_of_songs=None):
+def make_album(artist_name, album_name, number_of_songs=0):
     """Function should take in an artist name and album title
     and return a dictionary containing these two pieces of info
     """
@@ -11,9 +11,10 @@ def make_album(artist_name, album_name, number_of_songs=None):
         album_info['number_of_songs'] = number_of_songs
     return album_info
 
+# Prepare the prompts
 artist_prompt = "\nWhat artist are you thinking of? "
 album_prompt = f"\nWhat is your favorite album? "
-
+# let user know how to quit
 print("Enter 'q' at any time to stop.")
 
 while True:
