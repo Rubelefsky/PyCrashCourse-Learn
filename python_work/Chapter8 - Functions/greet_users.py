@@ -7,3 +7,6 @@ def greet_users(names):
 
 usernames = ['hannah', 'ty', 'margot'] # create the list
 greet_users(usernames) # passes the list through the function
+
+new_users = ['brandon', 'scott', 'steve']
+greet_users(new_users)
