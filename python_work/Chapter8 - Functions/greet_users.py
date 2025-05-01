@@ -10,3 +10,6 @@ greet_users(usernames) # passes the list through the function
 
 new_users = ['brandon', 'scott', 'steve']
 greet_users(new_users)
+
+new_users_test = ['test1', 'test2', 'test3']
+greet_users(new_users_test)
