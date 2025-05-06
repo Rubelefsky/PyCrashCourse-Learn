@@ -20,3 +20,9 @@ completed_models = []
         
 print_models(unprinted_designs, completed_models) 
 show_completed_models(completed_models)
+
+# function_name(list_name[:]) - SLice makes a copy of the list to send to the function.
+# if we didnt want to empty the list of unprinted designs we could call function like:
+# print_models(unprinted_designs[:], completed_models)
+
+print_models(unprinted_designs[:], completed_models)
