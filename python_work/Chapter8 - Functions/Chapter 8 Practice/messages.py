@@ -7,6 +7,6 @@ def show_messages(messages):
     for message in messages:
         print(message)
     
-messages = ['Hello this is a message!']
+messages = ['Hello this is a message!', 'this is a second message!']
 
 show_messages(messages)
