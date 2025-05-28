@@ -9,7 +9,7 @@ def build_car(manufacturer, model, **kwargs): # kwargs = key word arguments
     """
     kwargs['car_manufacturer'] = manufacturer
     kwargs['car_model'] = model
-    return kwargs
+    return kwargs # Returns the kwargs dictionary, now containing the manufacturer, model, and any other keyword arguments provided.
 
 new_car = build_car('honda', 'accord', car_color='gray', seat_type='leather')
 print(new_car)
