@@ -6,3 +6,5 @@ import module_import # import the name of the file that is the function
 module_import.make_pizza(16, 'pepperoni')
 module_import.make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
 
+# module_name.function_name()
+# Can import a specific function from a module - from module_name import function_name
