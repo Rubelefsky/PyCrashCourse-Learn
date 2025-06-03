@@ -17,7 +17,13 @@ class Dog: # Define a class named dog. Capitalized names refer to classes in Pyt
         """Simulate rolling over in response to a command."""
         print(f"{self.name} rolled over!")
 
-my_dog = Dog('Corduroy', 2)
+my_dog = Dog('Corduroy', 2) # Tells python to create a dog with the following parameters
+my_dog.sit() # Calls the method - sit. Corduroy is now sitting.
+my_dog.roll_over() # Calls the method - roll over. Corduroy rolled over!
 
-print(f"My dog's name is {my_dog.name}.")
+his_dog = Dog('Winnie', 4)
+
+print(f"\nMy dog's name is {my_dog.name}.")
 print(f"My dog is {my_dog.age} years old.")
+
+print(f"\nHis dogs name is {his_dog.name}.")
