@@ -22,6 +22,7 @@ my_dog.sit() # Calls the method - sit. Corduroy is now sitting.
 my_dog.roll_over() # Calls the method - roll over. Corduroy rolled over!
 
 his_dog = Dog('Winnie', 4)
+his_dog.roll_over() # Prints Winnie Rolled over!
 
 print(f"\nMy dog's name is {my_dog.name}.")
 print(f"My dog is {my_dog.age} years old.")
