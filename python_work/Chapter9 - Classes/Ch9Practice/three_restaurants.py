@@ -18,20 +18,11 @@ class Restaurant:
         message = f"{self.name} is open!"
         print(f"{message}")
 
-restaurant = Restaurant('la pizzetta', 'italian')
-print(restaurant.name)
-print(restaurant.cuisine_type)
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
+la_pizzetta = Restaurant('la pizzetta', 'italian')
+la_pizzetta.describe_restaurant()
 
-restaurant_2 = Restaurant('marios pizza', 'pizza')
-print(restaurant_2.name)
-print(restaurant_2.cuisine_type)
-restaurant_2.describe_restaurant()
-restaurant_2.open_restaurant()
+marios = Restaurant('marios pizza', 'pizza')
+marios.describe_restaurant()
 
-restaurant_3 = Restaurant('sophies cuban', 'cuban')
-print(restaurant_3.name)
-print(restaurant_3.cuisine_type)
-restaurant_3.describe_restaurant()
-restaurant_3.open_restaurant()
+sophies = Restaurant('sophies cuban', 'cuban')
+sophies.describe_restaurant()
