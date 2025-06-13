@@ -1,4 +1,4 @@
-# Page 162 - 
+# Page 162 
 
 class Restaurant:
     """A class representing a restaurant"""
