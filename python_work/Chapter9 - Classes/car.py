@@ -18,4 +18,5 @@ class Car: # Create car class
 
 my_new_car = Car('audi', 'r8', '2025') # my_new_car instance
 print(my_new_car.get_descriptive_name()) # call get_descriptive name with instance my_new_car
+my_new_car.odometer_reading = 23 # changes the attribute directly in the instance
 my_new_car.read_odemeter()
