@@ -15,8 +15,28 @@ class Car: # Create car class
     def read_odemeter(self): # Print a statement showing the cars miles
         """Odometer reading"""
         print(f"This car has {self.odometer_reading} miles on it.")
+    
+    def update_odometer(self, mileage): # method that updates certain attributes
+        """Set the odometer reading to the given value
+            Reject the change if it attempts to roll the odometer back.
+        """
+        if mileage >= self.odometer_reading:
+            self.odometer_reading = mileage # assigns self.odometer_reader a new value
+        else:
+            print("You can't roll back an odometer!")
 
-my_new_car = Car('audi', 'r8', '2025') # my_new_car instance
-print(my_new_car.get_descriptive_name()) # call get_descriptive name with instance my_new_car
-my_new_car.odometer_reading = 23 # changes the attribute directly in the instance
-my_new_car.read_odemeter()
+    def increment_odometer(self, miles):
+        """
+        Add the given amount to the odometer reading
+        """
+        self.odometer_reading += miles
+
+
+my_used_car = Car('subaru', 'outback', 2019)
+print(my_used_car.get_descriptive_name())
+
+my_used_car.update_odometer(23_500)
+my_used_car.read_odemeter()
+
+my_used_car.increment_odometer(100)
+my_used_car.read_odemeter()
