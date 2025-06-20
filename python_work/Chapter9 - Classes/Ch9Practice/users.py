@@ -19,10 +19,9 @@ class User:
         full_name = f"{self.first} {self.last}"
         print(f"Hello, {full_name}!")
 
-brandon = User('brandon', 'rubell', 'brubell')
+brandon = User('brandon', 'rubell', 'brubell') # Brandon instance
 brandon.describe_user()
 brandon.greet_user()
-
 
 
 
