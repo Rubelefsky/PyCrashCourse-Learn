@@ -21,3 +21,4 @@ class Restaurant:
 customer1 = Restaurant('la pizzetta', 'italian', 35)
 
 Restaurant.describe_number(customer1)
+print(customer1.number_served)
