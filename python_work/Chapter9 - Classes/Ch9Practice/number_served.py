@@ -25,9 +25,11 @@ class Restaurant:
         """Print the number served"""
         people_served = f"Number Served: {self.number_served}"
         print(f"{people_served}")
+
+    def set_number_served():
+        """Set the number of customers that have been served"""
     
 
 customer1 = Restaurant('la pizzetta', 'italian', 35)
-
 Restaurant.describe_number(customer1)
 print(customer1.number_served)
